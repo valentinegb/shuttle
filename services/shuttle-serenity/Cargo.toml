@@ -10,7 +10,7 @@ keywords = ["shuttle-service", "serenity"]
 [workspace]
 
 [dependencies]
-serenity = { version = "0.12", default-features = false, features = ["client", "gateway", "model"], optional = true }
+serenity = { version = "0.12.1", default-features = false, features = ["client", "gateway", "model"], optional = true, git = "https://github.com/GnomedDev/serenity.git", branch = "user-apps" }
 serenity-0-11 = { package = "serenity", version = "0.11.7", default-features = false, features = ["client", "gateway", "model"], optional = true }
 shuttle-runtime = { path = "../../runtime", version = "0.45.0", default-features = false }
 
